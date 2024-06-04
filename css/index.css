@@ -1,0 +1,15 @@
+.hero{
+position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 5%;
+}
+.billedeteksten{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-radius: 3px;
+}

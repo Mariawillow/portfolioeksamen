@@ -1,14 +1,41 @@
-html {
-    --primary: ;
-    --secondary: ;
+main {
+  list-style: none;
 }
- 
 
 h1 {
-color: F9D44D;    
+color: orangered;    
 font-family: "kavoon";
+text-align: center;
+text-decoration: dashed;
+}
+img{
+  max-width: 100%;
 }
 
 body{
-  background-color: 782E14;
+  background-color:  ;
 }
+
+footer{
+  color: white;
+  background-image: url(../img/Footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #333;
+    margin-top: 15rem
+  
+}
+.footervenstre{
+text-align: left;
+}
+
+.footerhøjre{
+text-align: right;
+}
+
+

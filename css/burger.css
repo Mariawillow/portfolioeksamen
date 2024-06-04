@@ -1,0 +1,116 @@
+/* Lidt almindelig styling på html, li og a */
+/* step 2 */
+
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 1;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  /* Almindelig styling på header og .navbar */
+  /* step 3 */
+  .header {
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+  }
+  
+  /* Hamburgeren laves gøres usynlig */
+  /* step 4 */
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: orange;
+  }
+  /* ... go gøres usynlig */
+  /* step 5 */
+  .hamburger {
+    display: none;
+  }
+  
+  /* Styling af menuen */
+  /* step 6 */
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 5rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--primary);
+  }
+  
+  .nav-link:hover {
+    color: var(--secondary);
+  }
+  
+  /* .nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+  } */
+  
+  /* step 7 */
+  @media (max-width: 700px) {
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .nav-item {
+      margin: 2.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      translate: 0 8px;
+      rotate: 45deg;
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      translate: 0 -8px;
+      rotate: -45deg;
+    }
+  }
+  
