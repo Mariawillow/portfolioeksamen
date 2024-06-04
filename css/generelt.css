@@ -1,8 +1,14 @@
+html {
+    --primary: ;
+    --secondary: ;
+}
+ 
+
 h1 {
-    color: ;
-    font-family: ;
+color: F9D44D;    
+font-family: "kavoon";
 }
 
 body{
-    background-color: brown;
+  background-color: 782E14;
 }
