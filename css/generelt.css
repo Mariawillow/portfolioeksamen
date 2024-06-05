@@ -10,12 +10,12 @@ color: #F9D44D;
 font-family: kavoon;
 text-align: center;
 text-decoration: dashed;
--webkit-text-stroke: 1px rgb(255, 94, 0);
-font-size: xx-large;
+/* font-size: xx-large; */
 
 }
 img{
   max-width: 100%;
+  border-radius: 5%;
 }
 
 body{
@@ -29,13 +29,10 @@ a:hover{
 .navigation{
   color: rgb(255, 218, 34);
   text-align: center;
-    padding: 50px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: kavoon;
     -webkit-text-stroke: 1px red;
-
 }
 
 .gotil{
@@ -55,7 +52,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 15rem
-  
 }
 .footervenstre{
 text-align: left;
@@ -63,6 +59,17 @@ text-align: left;
 
 .footerhøjre{
 text-align: right;
+}
+
+@media (min-width: 700px) {
+
+  .navigation{
+    display: flex;
+    padding: 20%;
+  }
+
+
+
 }
 
 

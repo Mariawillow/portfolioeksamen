@@ -5,7 +5,7 @@ ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightpink;
+    background-color: #FF6814;
     z-index: 1;
   }
   li {
@@ -35,7 +35,7 @@ ul {
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background-color:crimson;
+    background-color:rgba(33, 114, 117, 1);
     
   }
   /* ... go gøres usynlig */
@@ -94,7 +94,7 @@ ul {
     .nav-item {
       margin: 2.5rem 0;
       font-family: Arial, Helvetica, sans-serif;
-      color: rgb(61, 130, 114) ;
+      color: rgba(33, 114, 117, 1) ;
     }
   
     .hamburger {

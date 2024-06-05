@@ -18,8 +18,14 @@
 .bgcolor{
     background-color: rgb(11, 173, 119);
     border-radius: 6px;
+    max-width: 300px;
+    font-family: kavoon;
+    color: rgb(16, 127, 90);
+    
 }
 
 .h1color{
 color: rgb(16, 127, 90);
+-webkit-text-stroke: 1px rgb(219, 187, 28);
+
 }
