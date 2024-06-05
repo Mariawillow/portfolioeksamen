@@ -4,7 +4,7 @@ main {
 
 h1 {
 color: orangered;    
-font-family: "kavoon";
+font-family: kavoon;
 text-align: center;
 text-decoration: dashed;
 }
@@ -13,7 +13,17 @@ img{
 }
 
 body{
-  background-color:  ;
+  background-color:  lightsalmon;
+}
+
+.navigation{
+  color: orangered;
+  text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: kavoon;
 }
 
 footer{
@@ -26,7 +36,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #333;
     margin-top: 15rem
   
 }

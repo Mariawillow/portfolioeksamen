@@ -35,7 +35,8 @@ ul {
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background-color: orange;
+    background-color:crimson;
+    
   }
   /* ... go gøres usynlig */
   /* step 5 */
