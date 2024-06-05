@@ -3,27 +3,41 @@ main {
 }
 
 h1 {
-color: orangered;    
+color: rgb(255, 213, 0);    
 font-family: kavoon;
 text-align: center;
 text-decoration: dashed;
+-webkit-text-stroke: 1px red;
+font-size: xx-large;
 }
 img{
   max-width: 100%;
 }
 
 body{
-  background-color:  lightsalmon;
+  background-color:  #FF6814;
+}
+
+a:hover{
+  font-size: 250%;
 }
 
 .navigation{
-  color: orangered;
+  color: rgb(255, 218, 34);
   text-align: center;
     padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: kavoon;
+    -webkit-text-stroke: 1px red;
+
+}
+
+.gotil{
+  color: orangered;
+  font-family: kavoon;
+  -webkit-text-stroke: 1px red;
 }
 
 footer{

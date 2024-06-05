@@ -6,10 +6,13 @@ position: relative;
   margin-bottom: 5%;
 }
 .billedeteksten{
-    color: white;
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 225, 0);
+    border-radius: 3px;
+    font-size: xx-large;
+    -webkit-text-stroke: 1px red;
+    font-family: kavoon;
 }
