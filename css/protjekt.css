@@ -22,3 +22,10 @@
     font-size: x-large;
     margin-bottom: 5%;
   }
+
+  @media (min-width: 700px){
+    .billedeteksten2{
+        font-size: xxx-large;
+
+    }
+  }
