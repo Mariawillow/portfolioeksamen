@@ -8,6 +8,11 @@ main{
     max-width: 700px;
 }
 
+.maxwidth{
+ max-width: 300px;
+
+}
+
 }
 
 @media (max-width: 1000px){
