@@ -4,9 +4,7 @@
     grid-template-columns: 1fr 1fr;
 }
 
-main{
-    max-width: 700px;
-}
+
 
 .maxwidth{
  max-width: 300px;

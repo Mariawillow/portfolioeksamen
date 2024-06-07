@@ -25,6 +25,9 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    color: rgba(33, 114, 117, 1);
+    text-decoration-line: underline;
+    font-family: kavoon;
   }
   
   /* Hamburgeren laves gøres usynlig */

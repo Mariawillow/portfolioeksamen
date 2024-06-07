@@ -1,6 +1,7 @@
 .gallerimig{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
 }
 
 .grid_1_1{
@@ -27,5 +28,11 @@
 .h1color{
 color: rgb(16, 127, 90);
 -webkit-text-stroke: 1px rgb(219, 187, 28);
-
 }
+
+@media (min-width: 700px) {
+ .bgcolor{
+    margin: 5% 10% 5% 30%;
+ }
+}
+  

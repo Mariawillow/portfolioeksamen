@@ -23,7 +23,7 @@ body{
 }
 
 a:hover{
-  font-size: 250%;
+  font-size: 120%;
 }
 
 .navigation{
@@ -51,7 +51,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15rem
+    margin-top: 15rem;
 }
 .footervenstre{
 text-align: left;
@@ -67,8 +67,9 @@ text-align: right;
     display: flex;
     padding: 20%;
   }
-
-
+ main {
+  margin: 2% 20%;
+ }
 
 }
 
