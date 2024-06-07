@@ -10,8 +10,25 @@
     margin-top: 40px;
 }
 
-.grid_1_1_1{
+.grid2_1_1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5em;
+    background-color: rgb(217, 82, 37);
+    padding: 0 2%;
+}
+
+.grid3_1_1_1{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 0.5em;
+}
+}
+/* 
+@media (min-width: 700px){
+    
+    grid3_1_1_1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-}
+} */
