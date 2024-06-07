@@ -63,7 +63,7 @@
             </div>
         </section>
 
-        <section class="grid3_1_1_1">
+        <section class="grid3_1_1_1 metodebg">
           <div class="marginimg">
           <img src="img/protjekter/04/anlysespil.webp" alt="analyse">
           <img src="img/protjekter/04/skiterspil.webp" alt="skitser">
@@ -80,15 +80,28 @@
         </div>
       </section>
 
-      <section class="metodebg">
+      
         <h2>Metode beskrivelse</h2>
-        <p>Og nu kommer vi til det forfærdelige som kunne set. Da spillet var færdigt og vi dagen inden skulle aflevere det vi havde lavet, vælger jeg at overskrive hele mit spil, med et forrige spil inden på filezilla. Jeg brugte derefter 12 timer på at få lavet så meget som jeg nu kunne nå, men dette resulterede i at jeg ikke kunne være med til ferniseringen, da jeg jo ikke havde et spil som kunne spilles. Det ses også tydeligt at jeg ikke har lavet det færdigt!  Man kan ikke vinde spillet. 
-          Spil elementerne ændres ikke i udseendet når der klikkes på hhv. sol eller sky. 
-          Når tiden er gået, kommer man ikke tilbage til forsiden, som var planlagt. De lægger sig på skærmen i hjørnet. 
-          Og både tid og liv, ser ikke ud som de oprindeligt skulle. 
-          DOG kan man tabe spillet, OG er der lyd på dette. Her vises den rigtige række følge på spillet.  
-          De grædt dage er ovre, og når jeg kigger tilbage på mit spil, ser jeg også de gode ting. Jeg er vild med mit design. Jeg er vil med farve valget. Og min feedback fra præsentationen er også positiv, selvom spillet ikke virker. 
+        <p>
+          Ved implementering af vores spilelementer, var det vigtigt at de havde den rigtige grafik, derfor arbejde vi med SVG. for at vi kunne scallere dem uden de blev strukket i.  Det som helt klart var sjovest var alt det man skulle designe, udvikle og teste i starten. Det var spændende at se hvilken stil man endte med, da det ikke nødvendigvis var de første du lavede skitser til. 
         </p>
+        <p>
+          I CSS var det animationen af elementerne der var nyt funktioner som Remove og Add class,  events som AnimationEnd, betingelser som If-else og Math.random, som var de nye begreber som var altafgørende for om de spil elementer gjorde som du ville havde de skulle. Eksempler på følgende koder ses nedenfor. 
+        </p>
+
+        
+        <ol type="1">
+          <h2>Design- og udviklingsfaserne:</h2>
+          <li>Research og udvælgelse af stil</li>
+          <li> Udvikling af spilelementer, UI-elementer og baggrunden (SJOVESTE!!!)</li>
+          <li>Opbygning af spillet med HTML og placering af elementer med CSS animation</li>
+          <li>første animation med Java Script. Ens “onde” og “gode” spil element kan klikkes på og med brug af JS forsvinder de. </li>
+          <li> Liv, Point, vinde og tabe bliver nu implementeret i spillet.</li>
+          <li>Hvordan man med JS kan indsætte lyd</li>
+          <li>(her det hele gik galt for mig) Sætte spillet ind på dit website, så det er klar til fernisering. </li>
+        </ol>
+
+        
         <div class="grid2_1_1_1">
           <div>
           <h4>Eksempel på CSS af "hudtest" knap:</h4>
