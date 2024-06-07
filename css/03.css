@@ -1,0 +1,17 @@
+@media (min-width: 700px){
+
+.grid2_1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+}
+
+.marginimg{
+    margin-top: 40px;
+}
+
+.grid_1_1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}

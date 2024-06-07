@@ -1,5 +1,6 @@
 .projekterimg{
     filter: grayscale(80%);
+    border-radius: 10%;
     
 }
 .billedeteksten2{

@@ -28,6 +28,7 @@ ul {
     color: rgba(33, 114, 117, 1);
     text-decoration-line: underline;
     font-family: kavoon;
+
   }
   
   /* Hamburgeren laves gøres usynlig */
@@ -53,6 +54,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .nav-item {
@@ -88,6 +90,7 @@ ul {
       text-align: center;
       transition: 0.3s;
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+      
     }
   
     .nav-menu.active {
