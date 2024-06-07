@@ -4,14 +4,24 @@
     grid-template-columns: 1fr 1fr;
     gap: 0.5em;
 }
+.grid_1_1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 0.5em;
+   margin-top: 5%;
+}
+
+.marginimg{
+    margin-top: 10%;
+}
+
+.gapimg{
+    margin-top: 10%;
+}
+}
 
 
 .maxwidth{
  max-width: 300px;
 
-}
-
-}
-
-@media (max-width: 1000px){
 }

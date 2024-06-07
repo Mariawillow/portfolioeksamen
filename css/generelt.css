@@ -2,10 +2,12 @@ main {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
-  margin: 1% 10%;
+  max-width: 1100px;
+  margin: auto;
 }
 p{
   max-width: 60ch;
+  margin: auto;
 }
 
 h1 {
@@ -14,15 +16,24 @@ font-family: kavoon;
 text-align: center;
 text-decoration: dashed;
 font-size: xx-large;
+}
+
+h2{
+text-align: center;
+}
+
+h4{
+  text-align: center;
 
 }
+
 img{
   max-width: 100%;
 }
 
 body{
   background-color:  #FF6814;
-  margin: 0;
+  margin: auto;
 }
 
 a:hover{
@@ -37,6 +48,49 @@ a:hover{
     font-family: kavoon;
     -webkit-text-stroke: 1px red;
 }
+
+      /* Dropdown Button */
+      .dropbtn {
+        font-family: kavoon;
+        background-color:#FF6814;
+        color: rgba(33, 114, 117, 1);
+        border: none;
+        text-decoration-line: underline;
+        font-size: 120%;
+      }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-left: 5rem;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: pink;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: green}
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {display: block;}
+
+      /* Change the background color of the dropdown button when the dropdown content is shown
+      .dropdown:hover .dropbtn {background-color: lightgoldenrodyellow} */
 
 .gotil{
   color: orangered;
@@ -60,7 +114,6 @@ footer{
 .footervenstre{
 text-align: left;
 }
-
 .footerhøjre{
 text-align: right;
 }
@@ -71,9 +124,9 @@ text-align: right;
     display: flex;
     padding: 20%;
   }
-  main {
-  margin: 2% 1%;
- }
+
+  
+
 
 }
 
