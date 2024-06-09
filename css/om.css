@@ -2,12 +2,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
+    margin-top: 2%;
 }
 
 .grid_1_5{
     display: grid;
     grid-template-columns: 1fr 5fr;
     gap: 0.5em;
+    padding: 0 0 2% 2%;
+
 
 }
 .grid_1_1{
@@ -26,8 +29,6 @@
     max-width: 300px;
     font-family: kavoon;
     color: rgb(16, 127, 90);
-    margin: auto;
-
 }
 
 .h1color{
@@ -35,9 +36,12 @@ color: rgb(16, 127, 90);
 -webkit-text-stroke: 1px rgb(219, 187, 28);
 }
 
+.h1color2{
+    -webkit-text-stroke: 1px  red;
+}
+
 @media (min-width: 700px) {
  .bgcolor{
-    margin: auto;
     max-width: 800px;
  }
  .grid_1_5{

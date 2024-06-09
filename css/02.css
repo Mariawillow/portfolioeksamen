@@ -1,6 +1,9 @@
 h3{
     text-align: center;
 }
+.marginimg{
+    margin-top: 5%;
+}
 
 .bgfarve{
     background-color: rgb(217, 82, 37);
@@ -24,6 +27,11 @@ h3{
 .marginimg{
     margin-top: 10%;
 }
+
+.imghalv{
+    max-width: 50%;
+    max-height: 50%;
+  }
 
 
 }
