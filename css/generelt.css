@@ -35,6 +35,11 @@ img{
   max-width: 100%;
 }
 
+.imghalv{
+  max-width: 50%;
+  max-height: 50%;
+  }
+
 
 a:hover{
   font-size: 120%;
@@ -52,7 +57,6 @@ a:hover{
 /* "projekt oversigt" knap.  */
 .dropbtn {
   background-color: rgba(33, 114, 117, 1);
-  color: white;
   padding: 10px;
   font-family: kavoon;    
   color: orange;
@@ -101,6 +105,20 @@ a:hover{
   color: orangered;
   font-family: kavoon;
   -webkit-text-stroke: 1px red;
+}
+
+.hjemmesiden{
+  background-color: rgba(33, 114, 117, 1);
+padding: 10px;
+font-family: kavoon;    
+border: none;
+box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); ;
+cursor: pointer;
+text-align: center;
+margin-top: 10%;
+}
+.hjemmesideknap{
+  color: orange;
 }
 
 footer{

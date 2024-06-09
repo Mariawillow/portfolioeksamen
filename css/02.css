@@ -1,4 +1,8 @@
-@media (min-width: 700px){
+.bgfarve{
+    background-color:rgb(217, 82, 37) ;
+}
+
+@media (min-width: 800px){
 .grid_1_1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -15,13 +19,6 @@
     margin-top: 10%;
 }
 
-.gapimg{
-    margin-top: 10%;
-}
-}
-
-
-.maxwidth{
- max-width: 300px;
 
 }
+
