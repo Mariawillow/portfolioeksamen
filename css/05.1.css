@@ -1,3 +1,13 @@
+.bgfarve{
+    background-color: rgb(217, 82, 37);
+    padding: 1% 2%;
+    margin: 5% 0 5% 0;
+}
+
+.marginbottom{
+    margin-bottom: 5%;
+}
+
 
 @media (min-width: 400px){
 
