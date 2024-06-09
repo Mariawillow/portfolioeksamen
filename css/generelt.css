@@ -49,51 +49,54 @@ a:hover{
     -webkit-text-stroke: 1px red;
 }
 
-      /* Dropdown Button */
-      .dropbtn {
-        background-color: rgba(33, 114, 117, 1);
-        padding: 10px;
-        font-family: kavoon;
-        /* background-color:#FF6814; */
-        color: orange;
-        border: none;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      }
+/* "projekt oversigt" knap.  */
+.dropbtn {
+  background-color: rgba(33, 114, 117, 1);
+  color: white;
+  padding: 10px;
+  font-family: kavoon;    
+  color: orange;
+  border: none;
+  box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); ;
+  cursor: pointer;
+  /* margin-left: auto; */
+}
 
-      /* The container <div> - needed to position the dropdown content */
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
+/* Hvad der sker når musen klikkes på knappen og holder over knappen */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
 
-      /* Dropdown Content (Hidden by Default) */
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: pink;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+/* div klassen "dropdown" skal have postition relativ for at blive i sin normale position */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-      /* Links inside the dropdown */
-      .dropdown-content a {
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        color: rgba(33, 114, 117, 1);
-      }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-      /* Change color of dropdown links on hover */
-      .dropdown-content a:hover {background-color: palevioletred}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgba(33, 114, 117, 1);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-      /* Show the dropdown menu on hover */
-      .dropdown:hover .dropdown-content {display: block;}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: palevioletred;}
 
-      /* Change the background color of the dropdown button when the dropdown content is shown
-      .dropdown:hover .dropbtn {background-color: lightgoldenrodyellow} */
-
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 .gotil{
   color: orangered;
   font-family: kavoon;

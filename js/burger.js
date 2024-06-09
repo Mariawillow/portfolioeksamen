@@ -3,7 +3,6 @@
 /* <ul class="nav-menu">                        */
 // Step 8
 const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", mobileMenu);
 
@@ -12,8 +11,7 @@ function mobileMenu() {
   navMenu.classList.toggle("active");
 }
 
-/* JavaScript der sørger for at burger menuen   */
-/* lukker når man klikker på et link            */
+/* JavaScript der sørger for at burger menuen lukker når man klikker på et link*/
 // Step 9
 const navLink = document.querySelectorAll(".nav-link");
 
