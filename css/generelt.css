@@ -1,26 +1,29 @@
+
 main {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
-  max-width: 1100px;
-  margin: 2em 2em 2em 2em;
+  max-width: 1200px;
+  margin: 0 auto;
   background-color:  #ec6923;
   padding: 1% 2%;
+  /* border-radius: 30px; */
 }
 body{
-  max-width: 1100;
+  max-width: 1600px;
+  margin: 0 auto;
   background-color:  #cf6609cd;
-  margin: auto;
   background-image: url(../img/baggrundbody.svg);
 }
 p{
   max-width: 60ch;
   font-size: 16px;
+  margin: 0 auto;
 }
 
-.margin{
+/* .margin{
   margin: 2% 10% 0 20%;
-}
+} */
 
 h1 {
 color: #F9D44D;    
@@ -169,9 +172,9 @@ text-align: right;
 
   }
 
-  main{
+  /* main{
     margin: 2% 2% 2% 5%;
-  }
+  } */
 }
 
 

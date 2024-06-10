@@ -7,6 +7,8 @@
   .talliste{
     list-style:decimal;
   }
+
+
 @media (min-width: 700px){
 
 
@@ -21,6 +23,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 0.5em;
+        margin-top: 1%;
+
     }
 
     .grid2_1_1_1{
