@@ -7,7 +7,6 @@ main {
   margin: 0 auto;
   background-color:  #ec6923;
   padding: 1% 2%;
-  /* border-radius: 30px; */
 }
 body{
   max-width: 1600px;
@@ -19,18 +18,13 @@ p{
   max-width: 60ch;
   font-size: 16px;
   margin: 0 auto;
+  margin-bottom: 1%;
 }
-
-/* .margin{
-  margin: 2% 10% 0 20%;
-} */
 
 h1 {
 color: #F9D44D;    
 font-family: kavoon;
 text-align: center;
-/* text-decoration: dashed; */
-/* font-size: xx-large; */
 }
 
 h2{
@@ -57,7 +51,7 @@ img{
 
 
 a:hover{
-  font-size: 120%;
+  font-size: 150%;
 }
 
 .navigation{
@@ -89,7 +83,7 @@ a:hover{
 .dropdown {
   position: relative;
   display: inline-block;
-  margin: 0 10% 0 40%;
+  margin: 5% 10% 0 40%;
 
 }
 
@@ -138,18 +132,12 @@ margin-top: 10%;
 }
 
 footer{
-  /* color: black; */
-  /* background-image: url(../img/Footer.svg);
-  background-repeat: no-repeat;
-  background-size: cover; */
   font-size: large;
-  /* text-align: center; */
     padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* opacity: 0.5; */
-    /* margin-top: 20%; */
+
 }
 .footervenstre{
 text-align: left;
@@ -168,13 +156,9 @@ text-align: right;
   .dropdown {
     position: relative;
     display: inline-block;
-    margin: 0 20% 0 45%;
+    margin: 5% 10% 0 45%;
 
   }
-
-  /* main{
-    margin: 2% 2% 2% 5%;
-  } */
 }
 
 

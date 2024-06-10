@@ -14,9 +14,7 @@ ul {
   }
   
   /* Almindelig styling på header og .navbar */
-  /* .header {
-    border-bottom: 1px solid #e2e8f0;
-  } */
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -56,21 +54,11 @@ ul {
   }
   
   .nav-link {
-    /* font-size: 1rem;
-    font-weight: 200; */
     color:  rgba(33, 114, 117, 1);
   }
   
-  .nav-link:hover {
-    color: rgb(11, 39, 40);
-  }
+
   
-  /* .nav-logo {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: #482ff7;
-  }
-   */
   @media (max-width: 700px) {
     .nav-menu {
       position: fixed;
