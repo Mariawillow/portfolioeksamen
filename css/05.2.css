@@ -7,12 +7,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 0.5em
     }
-    
-    .grid_1_1{
-        display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5em
-    }
+
 
     .margintop{
         margin-top: 10%;
