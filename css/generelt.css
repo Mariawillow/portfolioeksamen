@@ -9,13 +9,17 @@ main {
 }
 body{
   max-width: 1100;
-  /* background-color:  #cf6609cd; */
+  background-color:  #cf6609cd;
   margin: auto;
   background-image: url(../img/baggrundbody.svg);
 }
 p{
   max-width: 60ch;
-  margin: auto;
+  font-size: 16px;
+}
+
+.margin{
+  margin: 2% 10% 0 20%;
 }
 
 h1 {
