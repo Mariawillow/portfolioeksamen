@@ -1,6 +1,6 @@
 .projekterimg{
     filter: grayscale(80%);
-    border-radius: 10%;
+    border-radius: 40px;
     
 }
 .billedeteksten2{
@@ -9,7 +9,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(255, 225, 0);
-  border-radius: 3px;
+  /* border-radius: 3px; */
   font-size: xx-large;
   -webkit-text-stroke: 1px red;
   font-family: kavoon;
@@ -20,8 +20,8 @@
     position: relative;
     display: inline-block;
     text-align: center;
-    font-size: x-large;
-    margin-bottom: 5%;
+    /* font-size: x-large; */
+    margin-bottom: 2%;
   }
 
  

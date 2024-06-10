@@ -1,5 +1,5 @@
 /* Lidt almindelig styling på html, li og a */
-/* step 2 */
+/* "z-index"  sætter ul-elementer ovenpå andre elementer med lavere z-indez.*/
 ul {
     margin: 0;
     padding: 0;
@@ -14,10 +14,9 @@ ul {
   }
   
   /* Almindelig styling på header og .navbar */
-  /* step 3 */
-  .header {
+  /* .header {
     border-bottom: 1px solid #e2e8f0;
-  }
+  } */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -30,24 +29,22 @@ ul {
   }
   
   /* Hamburgeren laves gøres usynlig */
-  /* step 4 */
+  /* De tre streger */
   .bar {
     display: block;
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background-color:rgba(33, 114, 117, 1);
     
   }
-  /* ... go gøres usynlig */
-  /* step 5 */
+  /* ... go gøres usynlig som standart */
   .hamburger {
     display: none;
   }
   
   /* Styling af menuen */
-  /* step 6 */
   .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -59,39 +56,38 @@ ul {
   }
   
   .nav-link {
-    font-size: 1rem;
-    font-weight: 200;
-    color: var(--primary);
+    /* font-size: 1rem;
+    font-weight: 200; */
+    color:  rgba(33, 114, 117, 1);
   }
   
   .nav-link:hover {
-    color: var(--secondary);
+    color: rgb(11, 39, 40);
   }
   
-  .nav-logo {
+  /* .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
     color: #482ff7;
   }
-  
-  /* step 7 */
+   */
   @media (max-width: 700px) {
     .nav-menu {
       position: fixed;
-      left: -100%;
+      right: -100%;
       top: 5rem;
       flex-direction: column;
       background-color: lightpink;
-      width: 100%;
+      width: 50%;
       border-radius: 10px;
       text-align: center;
       transition: 0.3s;
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-      
+
     }
   
     .nav-menu.active {
-      left: 0;
+      right: 0;
     }
   
     .nav-item {
@@ -105,6 +101,8 @@ ul {
       cursor: pointer;
     }
   
+    /* Linjerne i burgermenuen danner et krys, når der klikkes på menuen.
+    De danner tilsammen et kryds. */
     .hamburger.active .bar:nth-child(2) {
       opacity: 0;
     }

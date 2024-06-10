@@ -29,8 +29,8 @@ h1 {
 color: #F9D44D;    
 font-family: kavoon;
 text-align: center;
-text-decoration: dashed;
-font-size: xx-large;
+/* text-decoration: dashed; */
+/* font-size: xx-large; */
 }
 
 h2{
@@ -138,12 +138,12 @@ margin-top: 10%;
 }
 
 footer{
-  color: black;
+  /* color: black; */
   /* background-image: url(../img/Footer.svg);
   background-repeat: no-repeat;
   background-size: cover; */
   font-size: large;
-  text-align: center;
+  /* text-align: center; */
     padding: 50px;
     display: flex;
     justify-content: space-between;
