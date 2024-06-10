@@ -2,14 +2,20 @@
     list-style: decimal;
 }
 
-.bgfarve{
-    background-color: rgb(217, 82, 37);
+/* .bgfarve{
+    /* background-color: rgb(217, 82, 37);
     padding: 1% 2%;
-    margin: 5% 0 5% 0;
-}
+    margin: 5% 0 5% 0; */
+    
+*/
+/* grid3_1_1 */
+
 
 @media (min-width: 700px){
 
+    .bg{
+        max-width: 550px;
+    }
 
     .grid_1_1{
         display: grid;
@@ -38,5 +44,4 @@
     margin-top: 5%;
 
 }
-
 }

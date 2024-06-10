@@ -29,6 +29,7 @@
     max-width: 300px;
     font-family: kavoon;
     color: rgb(16, 127, 90);
+    margin-left: 13%;
 }
 
 .h1color{
@@ -36,9 +37,9 @@ color: rgb(16, 127, 90);
 -webkit-text-stroke: 1px rgb(219, 187, 28);
 }
 
-.h1color2{
+/* .h1color2{
     -webkit-text-stroke: 1px  red;
-}
+} */
 
 @media (min-width: 700px) {
  .bgcolor{
