@@ -11,19 +11,15 @@ position: relative;
     transform: translate(-50%, -50%);
     color:rgb(255, 225, 0);
     border-radius: 3px;
-    font-size: xx-large;
-    -webkit-text-stroke: 1px red;
+    font-size: xxx-large;
+    /* -webkit-text-stroke: 1px red; */
     font-family: kavoon;
 }
-.footerindex{
-  margin-top: 100%;
 
-}
 
 @media (min-width: 600px) {
 
 .footerindex{
-  margin-top: 20%;
-
+  margin-top: 10%;
 }
 }

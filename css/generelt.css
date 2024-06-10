@@ -3,15 +3,15 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
   max-width: 1100px;
-  margin: 2em 2em 2em 5em;
-  background-color:  #cf6509;
+  margin: 2em 2em 2em 2em;
+  background-color:  #ec6923;
   padding: 1% 2%;
 }
 body{
   max-width: 1100;
   /* background-color:  #cf6609cd; */
   margin: auto;
-  background-image: url(../img/Footer.svg);
+  background-image: url(../img/baggrundbody.svg);
 }
 p{
   max-width: 60ch;
@@ -71,7 +71,6 @@ a:hover{
   border: none;
   box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); ;
   cursor: pointer;
-  /* margin-left: auto; */
 }
 
 /* Hvad der sker når musen klikkes på knappen og holder over knappen */
@@ -83,6 +82,8 @@ a:hover{
 .dropdown {
   position: relative;
   display: inline-block;
+  margin: 0 10% 0 40%;
+
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -134,13 +135,14 @@ footer{
   /* background-image: url(../img/Footer.svg);
   background-repeat: no-repeat;
   background-size: cover; */
+  font-size: large;
   text-align: center;
     padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* opacity: 0.5; */
-    margin-top: 20%;
+    /* margin-top: 20%; */
 }
 .footervenstre{
 text-align: left;
@@ -154,6 +156,17 @@ text-align: right;
   .navigation{
     display: flex;
     padding: 20%;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 20% 0 45%;
+
+  }
+
+  main{
+    margin: 2% 2% 2% 5%;
   }
 }
 
