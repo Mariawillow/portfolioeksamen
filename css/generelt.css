@@ -51,7 +51,9 @@ img{
 
 
 a:hover{
-  font-size: 150%;
+  font-size: 120%;
+    color: rgb(200, 49, 74);
+    text-decoration: underline;
 }
 
 .navigation{
@@ -66,12 +68,13 @@ a:hover{
 /* "projekt oversigt" knap.  */
 .dropbtn {
   background-color: rgba(33, 114, 117, 1);
-  padding: 10px;
+  padding: 20px;
   font-family: kavoon;    
   color: orange;
   border: none;
-  box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); ;
+  box-shadow:0px 8px 16px 0px rgb(140, 136, 136); ;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 /* Hvad der sker når musen klikkes på knappen og holder over knappen */
@@ -83,7 +86,7 @@ a:hover{
 .dropdown {
   position: relative;
   display: inline-block;
-  margin: 5% 10% 0 40%;
+  margin: 0 auto;
 
 }
 
@@ -92,10 +95,11 @@ a:hover{
   display: none;
   position: absolute;
   background-color: pink;
-  min-width: 160px;
+  min-width: 145px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 }
 
 /* Links inside the dropdown */
@@ -146,6 +150,10 @@ text-align: left;
 text-align: right;
 }
 
+/* hr{
+  padding-top: 30%;
+} */
+
 @media (min-width: 700px) {
 
   .navigation{
@@ -159,6 +167,9 @@ text-align: right;
     margin: 5% 10% 0 45%;
 
   }
+
+
+
 }
 
 

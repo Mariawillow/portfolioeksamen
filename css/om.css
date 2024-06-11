@@ -36,6 +36,10 @@ color: rgb(16, 127, 90);
 -webkit-text-stroke: 1px rgb(219, 187, 28);
 }
 
+.marginimg{
+    margin: 0 auto;
+}
+
 /* .h1color2{
     -webkit-text-stroke: 1px  red;
 } */
