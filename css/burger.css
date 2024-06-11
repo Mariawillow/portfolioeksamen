@@ -96,13 +96,11 @@ ul {
     }
   
     .hamburger.active .bar:nth-child(1) {
-      translate: 0 8px;
-      rotate: 45deg;
+      transform: translate(0, 8px) rotate(45deg);
     }
   
     .hamburger.active .bar:nth-child(3) {
-      translate: 0 -8px;
-      rotate: -45deg;
+      transform: translate(0, -8px) rotate(-45deg);
     }
   }
   
